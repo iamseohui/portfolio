@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+/* common */
+.container{position: relative; width: 1280px; height: 100%; margin: 0 auto}
+.title{text-align: center; text-decoration: underline; padding-top: 100px; font-size: 36px; font-weight: 500}
+
+/* header */
+.header nav{position: fixed; z-index: 9999; left: 0; top: 0; right: 0; padding: 0 47px; height: 80px; display: flex; justify-content: space-between; background: transparent; align-items: center; box-shadow: 0 3px 3px rgba(0,0,0,0); transition: background .3s, box-shadow: .3s}
+.header nav .main-menu{display: flex; max-width: 1170px; width: 70%; justify-content: flex-end}
+.header nav .main-menu li{margin-left: 46px; text-transform: uppercase}
+.header nav .main-menu li a{font-size: 15px}
+.header nav.fixed{background: #fff; box-shadow: 0 3px 3px rgba(0,0,0,.3)}
+
+/* home */
+#fullpage .banner{background: linear-gradient(90deg, #C2DCF4 40%, #fff 10%)}
+.profile_pic{width: 500px; height: inherit; position: absolute; top: 150px; left: 0}
+.typed-cursor{display: block; font-size: 18px; font-weight: 500; position: absolute; top: 400px; left: 650px}
+.typed-cursor strong{font-size: 70px}
+
+/* about */
+.about_img{width: 400px; height: inherit; position: absolute; top: 200px; left: 0}
+.about_txt{width: 400px; position: absolute; top: 200px; left: 500px}
+.about_txt h3{font-size: 24px; padding: 35px 0 15px 0}
+.about_txt h3 i{color: #C2DCF4}
+.about_txt p{font-family: 'Noto Sans KR', sans-serif; font-size: 18px}
+.about_personality{background: #ddd}
+
+/* skills */
+.skills_wrap{display: flex}
+.skills_wrap>div{flex: 1; padding: 50px; box-sizing: border-box}
+.skills_wrap .skills_left h3, .skills_wrap .skills_right .design h3{font-size: 28px; padding-bottom: 50px}
+.skills_wrap .skills_left>div, .skills_wrap .skills_right .design>div{margin-bottom: 100px}
+#progressbar6{margin-bottom: 70px}
+.skills_wrap .skills_left h4, .skills_wrap .skills_right h4{font-size: 15px}
+.skills_wrap .skills_left h4 span, .skills_wrap .skills_right .design h4 span{font-family: 'Noto Sans KR', sans-serif; font-size: 13px}
+.skills_wrap .skills_right .etc h3{font-size: 28px; padding-bottom: 10px}
+.skills_wrap .skills_right .etc ul li{width: 99px; height: 99px; float: left; margin: 0 35px 40px 0}
+.skills_wrap .skills_right .etc ul li:nth-child(1){background-image: url(../img/icons8-less-logo-96.png)}
+.skills_wrap .skills_right .etc ul li:nth-child(2){background-image: url(../img/icons8-sass-100.png)}
+.skills_wrap .skills_right .etc ul li:nth-child(3){background-image: url(../img/icons8-github-96.png)}
+.skills_wrap .skills_right .etc ul li:nth-child(4){background-image: url(../img/icons8-figma-96.png)}
+.skills_wrap .skills_right .etc ul li:nth-child(5){background-image: url(../img/icons8-adobe-premiere-pro-100.png)}
+.skills_wrap .skills_right .etc ul li:nth-child(6){background-image: url(../img/icons8-bootstrap-96.png)}
+.skills_wrap .skills_right .etc ul li:nth-child(7){background-image: url(../img/icons8-php-100.png)}
+.skills_wrap .skills_right .etc ul li:nth-child(8){background-image: url(../img/icons8-json-100.png)}
+
+/* portfolio */
+.swiper-slide{margin-top: 50px}
+.swiper-slide .port_left{position: absolute; top:40px}
+.swiper-slide .port_left p{width: 550px; height: 450px}
+.swiper-slide .port_left .port_inner{width: 494px; height: 280px; position: absolute; top: 28px; left: 28px; overflow: hidden}
+
+.swiper-slide .port_right{float: right; width: 500px; position : absolute; top: 40px; right: 0; font-family: 'Noto Sans KR', sans-serif}
+.swiper-slide .port_right .port_text{padding-bottom: 50px}
+.swiper-slide .port_right .port_text li{font-size: 14px; line-height: 150%}
+.swiper-slide .port_right .port_text li.port_tit{font-weight: 600; font-size: 36px; border-bottom: 2px solid #97C3EC}
+.swiper-slide .port_right .port_text li.sub_txt{margin-bottom: 50px; color: #666}
+.swiper-slide .port_right a{display: block; background: #fff; color: #97C3EC; border: 2px solid #97C3EC; width: 100px; height: 50px; border-radius: 10px; margin-top: 20px; line-height: 50px; text-align: center; font-family:'IBM Plex Mono', monospace; font-size: 15px; transition: all .3s}
+.swiper-slide .port_right a:hover{background: #97C3EC; color: #fff}
+.swiper-slide .port_right span{font-size:12px; color: #777}
+
+.swiper-button-next, .swiper-button-prev{color: #97c3ec}
+.swiper-pagination-bullet{background: #97c3ec}
+
+/* contact */
+.contact{background: #C2DCF4}
+.contact .contact_wrap{display: flex; height: inherit}
+.contact .contact_wrap .contact_info{padding: 200px 0 0 300px; width: 40%}
+.contact .contact_wrap .contact_info h3{font-size: 36px; font-weight: 500; padding-bottom: 50px; text-decoration: underline}
+.contact .contact_wrap .contact_info span{font-family: 'Noto Sans KR', sans-serif; font-size: 13px; color: #777}
+.contact .contact_wrap .contact_info p{font-size: 24px; padding: 30px 0}
+.contact .contact_wrap .contact_info p i{font-size: 36px;}
+.contact .contact_wrap .contact_info p a{transition: all .3s}
+.contact .contact_wrap .contact_info p a:hover{color: #fff}
+
+#map{height: inherit; width: 60%}
+
+
+
+
+
+
+
