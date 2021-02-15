@@ -20,7 +20,7 @@
 
 /* about */
 .about_img{width: 400px; height: inherit; position: absolute; top: 200px; left: 0}
-.about_txt{width: 400px; position: absolute; top: 200px; left: 500px}
+.about_txt{width: 400px; position: absolute; top: 200px; left: 600px}
 .about_txt h3{font-size: 24px; padding: 35px 0 15px 0}
 .about_txt h3 i{color: #C2DCF4}
 .about_txt p{font-family: 'Noto Sans KR', sans-serif; font-size: 18px}
@@ -69,7 +69,7 @@
 .contact .contact_wrap .contact_info{padding: 200px 0 0 300px; width: 40%}
 .contact .contact_wrap .contact_info h3{font-size: 36px; font-weight: 500; padding-bottom: 50px; text-decoration: underline}
 .contact .contact_wrap .contact_info span{font-family: 'Noto Sans KR', sans-serif; font-size: 13px; color: #777}
-.contact .contact_wrap .contact_info p{font-size: 24px; padding: 30px 0}
+.contact .contact_wrap .contact_info p{font-size: 18px; padding: 30px 0}
 .contact .contact_wrap .contact_info p i{font-size: 36px;}
 .contact .contact_wrap .contact_info p a{transition: all .3s}
 .contact .contact_wrap .contact_info p a:hover{color: #fff}
